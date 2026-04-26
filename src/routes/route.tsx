@@ -13,14 +13,6 @@ export const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
-      {
-        path: "about",
-        element: <h1 className="text-2xl font-bold">About Page</h1>,
-      },
-      {
-        path: "contact",
-        element: <h1 className="text-2xl font-bold">Contact Page</h1>,
-      },
     ],
   },
 ]);
